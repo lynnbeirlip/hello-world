@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<suite name="Session12c" >
+	<test name="ClassesTest" >
+  		<classes> 
+ 			<class name="advancedReportingPractice1.ClassOne"/>
+ 			<class name="advancedReportingPractice1.ClassTwo"/>
+  		</classes>
+  	</test>
+ </suite>

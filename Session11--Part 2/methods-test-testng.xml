@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Session11--Part 2" parallel="methods" thread-count="2">
+<test name="Test-method Test" group-by-instances="true">
+<classes>
+<class name = "PracticeExercises.parallelBrowserTest" />
+</classes>
+</test> 
+</suite>
+
+ 
+
+
+

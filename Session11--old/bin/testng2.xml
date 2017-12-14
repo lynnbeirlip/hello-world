@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Session11">
+  <listeners>
+    <listener class-name="PracticeExercises.CustomReporter" />
+  </listeners>
+
+  <test name="Simple Reporter test">
+    <classes>
+      <class name="PracticeExercises.SampleTest" />
+    </classes>
+  </test>
+</suite>

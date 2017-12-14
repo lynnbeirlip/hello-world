@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Session11]">
+  <listeners>
+    <listener class-name="PracticeExercises.CustomReporter"/>
+  </listeners>
+  <test name="Simple Reporter test(failed)">
+    <classes>
+      <class name="PracticeExercises.SampleTest">
+        <methods>
+          <include name="testMethodTwo"/>
+          <include name="testMethodThree"/>
+        </methods>
+      </class> <!-- PracticeExercises.SampleTest -->
+    </classes>
+  </test> <!-- Simple Reporter test(failed) -->
+</suite> <!-- Failed suite [Session11] -->

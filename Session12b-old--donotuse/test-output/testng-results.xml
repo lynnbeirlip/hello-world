@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[C:\Users\lynn.bierl\workspace\Screenshots\]]>
+    </line>
+    <line>
+      <![CDATA[C:\Users\lynn.bierl\workspace\Screenshots\]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4322" started-at="2017-05-10T14:46:36Z" finished-at="2017-05-10T14:46:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4322" started-at="2017-05-10T14:46:36Z" finished-at="2017-05-10T14:46:40Z">
+      <class name="advancedReportingPractice.attachingScreenshots">
+        <test-method status="PASS" signature="setup()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="setup" is-config="true" duration-ms="2874" started-at="2017-05-10T10:46:33Z" finished-at="2017-05-10T10:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="beforeEachMethod" is-config="true" duration-ms="1176" started-at="2017-05-10T10:46:36Z" finished-at="2017-05-10T10:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="cars()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="cars" duration-ms="2579" started-at="2017-05-10T10:46:37Z" finished-at="2017-05-10T10:46:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[C:\Users\lynn.bierl\workspace\Screenshots\]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cars -->
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="beforeEachMethod" is-config="true" duration-ms="288" started-at="2017-05-10T10:46:40Z" finished-at="2017-05-10T10:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="takeScreenshot" duration-ms="263" started-at="2017-05-10T10:46:40Z" finished-at="2017-05-10T10:46:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[C:\Users\lynn.bierl\workspace\Screenshots\]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="endOfSuite()[pri:0, instance:advancedReportingPractice.attachingScreenshots@4501b7af]" name="endOfSuite" is-config="true" duration-ms="948" started-at="2017-05-10T10:46:40Z" finished-at="2017-05-10T10:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfSuite -->
+      </class> <!-- advancedReportingPractice.attachingScreenshots -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

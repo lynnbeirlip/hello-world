@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;C2Session2&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     junit-4.10.jar&#x0D;&#x0A;     selenium-server-standalone-3.3.1 (1).jar&#x0D;&#x0A;     client-combined-3.3.1-nodeps.jar" description="Copy files" element1="lib/junit-4.10.jar" element2="lib/selenium-server-standalone-3.3.1 (1).jar" element3="lib/client-combined-3.3.1-nodeps.jar" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1506685921601" target="/Final Project/lib" units="0" version="1.0"/>
+</session>

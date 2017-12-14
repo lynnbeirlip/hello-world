@@ -1,0 +1,127 @@
+package ProjectPackage;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import java.io.File;
+import java.io.FileInputStream;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import utility.ExcelUtils;
+import bsh.util.Util;
+
+public class Day3Take2 {
+
+	public static void setUp(String[] args) throws Exception {
+		String baseURL = "http://demo.guru99.com/V4";
+		WebDriver driver;
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
+		// Read test data from excel file
+	    
+		String filename = "Input for final project.xlsx";
+		String workingDirectory = System.getProperty("user.dir");
+
+		//****************//
+
+		File file = new File(workingDirectory, filename);
+
+		String filePath = "C:\\Users\\lynn.bierl\\Input for final project.xlsx";
+		System.out.println("Final filepath : " + filePath);
+		//if (file.createNewFile()) {
+			//System.out.println("File is created!");
+		//} else {
+			//System.out.println("File already existed.");
+		//}
+
+	  //} catch (IOException e) {
+		//e.printStackTrace();
+	  //}
+		
+		String sheetName = "Sheet1";
+		String tableName = "LoginTable";
+		
+		FileInputStream ExcelFile = new FileInputStream(filePath);
+		
+	}
+	
+	public static void main (String[] args) throws Exception {
+		// Read test data from excel file
+	    // Method 	getDataFromExcel is defined in class Util
+	    /*String[][] testData = Util.getDataFromExcel(Util.FILE_PATH,
+	    		Util.SHEET_NAME, Util.TABLE_NAME);*/
+	    String[][] testData = Util.getDataFromExcel(Util.filePath, Util.sheetName, Util.tableName);
+	    String username, password;
+		String expectedTitle;
+		String actualTitle;
+		String actualBoxtitle;
+		
+		String baseURL = "http://demo.guru99.com/V4";
+		WebDriver driver;
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(baseURL);
+		
+		//Start expert answers script
+		for (int i = 0; i < testData.length; i++) {
+		    username = testData[i][0]; // get username
+		    password = testData[i][1]; // get password
+		    
+		    // Enter username
+		    driver.findElement(By.name("uid")).clear();
+		    driver.findElement(By.name("uid")).sendKeys(username);
+
+		    // Enter Password
+		    driver.findElement(By.name("password")).clear();
+		    driver.findElement(By.name("password")).sendKeys(password);
+
+		    // Click Login
+		    driver.findElement(By.name("btnLogin")).click();
+	       
+	        /* Determine Pass Fail Status of the Script
+	         * If login credentials are correct,  Alert(Pop up) is NOT present. An Exception is thrown and code in catch block is executed	
+	         * If login credentials are invalid, Alert is present. Code in try block is executed 	    
+	         */
+		    try{ 
+		    
+		       	Alert alt = driver.switchTo().alert();
+				actualBoxtitle = alt.getText(); // get content of the Alter Message
+				alt.accept();
+				if (actualBoxtitle.contains(Util.EXPECT_ERROR)) { // Compare Error Text with Expected Error Value
+				    System.out.println("Test case SS[" + i + "]: Passed"); 
+				} else {
+				    System.out.println("Test case SS[" + i + "]: Failed");
+				}
+			}    
+		    catch (NoAlertPresentException Ex){ 
+		    	actualTitle = driver.getTitle();
+				// On Successful login compare Actual Page Title with Expected Title
+				if (actualTitle.contains(Util.EXPECT_TITLE)) {
+				    System.out.println("Test case SS[" + i + "]: Passed");
+				} else {
+				    System.out.println("Test case SS[" + i + "]: Failed");
+				}
+				
+	        } 
+		    driver.close();
+		    } 
+	}
+	
+}
+	       
+			
+
+	
+		
+	

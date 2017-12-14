@@ -1,0 +1,38 @@
+package ProjectPackage;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Day2 {
+
+	private static final If "True" = null;
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		String baseURL = "http://demo.guru99.com/V4";
+		WebDriver driver;
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(baseURL);
+		driver.findElement(By.name("uid")).sendKeys("mngr87854");
+		driver.findElement(By.name("password")).sendKeys("yvUjEdy");
+		driver.findElement(By.name("btnLogin")).click();
+		
+		//Verify the title of the home page
+		
+		String currentTitle = driver.getTitle();
+		assertEquals(currentTitle , driver.getTitle());
+			
+		System.out.println("The title of the home page is " + currentTitle);
+		Thread.sleep(3000);
+		driver.quit();
+	}
+}
+	
+		
+	

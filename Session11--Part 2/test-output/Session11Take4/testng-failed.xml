@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Session11Take4]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="PracticeExercises.multiBrowserTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PracticeExercises.multiBrowserTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PracticeExercises.multiBrowserTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PracticeExercises.multiBrowserTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Session11Take4] -->

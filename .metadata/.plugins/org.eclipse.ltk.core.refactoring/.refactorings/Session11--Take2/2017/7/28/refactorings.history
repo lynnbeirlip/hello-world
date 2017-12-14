@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;captureScreenshot.java&apos; to &apos;Session11--Part 2/src/PracticeExercises&apos;&#x0D;&#x0A;- Original project: &apos;Session11--Take2&apos;&#x0D;&#x0A;- Destination element: &apos;Session11--Part 2/src/PracticeExercises&apos;&#x0D;&#x0A;- Original element: &apos;PracticeExercises.captureScreenshot.java&apos;" description="Copy compilation unit" destination="=Session11--Part 2/src&lt;PracticeExercises" element1="/src&lt;PracticeExercises{captureScreenshot.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500044205927" units="1" version="1.0"/>
+</session>

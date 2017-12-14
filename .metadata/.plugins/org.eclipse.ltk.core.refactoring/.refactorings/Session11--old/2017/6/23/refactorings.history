@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;PracticeExercises.CharUtilsTest&apos; to &apos;TestNG_ParametersandDataProviders&apos;&#x0D;&#x0A;- Original project: &apos;Session11&apos;&#x0D;&#x0A;- Original element: &apos;PracticeExercises.CharUtilsTest&apos;&#x0D;&#x0A;- Renamed element: &apos;PracticeExercises.TestNG_ParametersandDataProviders&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CharUtilsTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;PracticeExercises{CharUtilsTest.java[CharUtilsTest" matchStrategy="1" name="TestNG_ParametersandDataProviders" qualified="false" references="true" similarDeclarations="false" stamp="1496605667613" textual="false" version="1.0"/>
+</session>

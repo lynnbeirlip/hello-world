@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestNGProjectTake2" duration-ms="47" started-at="2017-09-26T15:24:56Z" finished-at="2017-09-26T15:24:56Z">
+    <groups>
+      <group name="Car">
+        <method signature="firsttestnggroup.Car1()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Car1" class="firsttestngpackage.firsttestnggroup"/>
+        <method signature="firsttestnggroup.Car2()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Car2" class="firsttestngpackage.firsttestnggroup"/>
+        <method signature="firsttestnggroup.Sedan1()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Sedan1" class="firsttestngpackage.firsttestnggroup"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="firsttestnggroup.Sedan1()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Sedan1" class="firsttestngpackage.firsttestnggroup"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Practice Grouping" duration-ms="47" started-at="2017-09-26T15:24:56Z" finished-at="2017-09-26T15:24:56Z">
+      <class name="firsttestngpackage.firsttestnggroup">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Car1" duration-ms="16" started-at="2017-09-26T11:24:56Z" finished-at="2017-09-26T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Car2" duration-ms="0" started-at="2017-09-26T11:24:56Z" finished-at="2017-09-26T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:firsttestngpackage.firsttestnggroup@18be83e4]" name="Sedan1" duration-ms="0" started-at="2017-09-26T11:24:56Z" finished-at="2017-09-26T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- firsttestngpackage.firsttestnggroup -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- FirstTestNGProjectTake2 -->
+</testng-results>

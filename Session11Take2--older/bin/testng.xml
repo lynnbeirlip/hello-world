@@ -1,0 +1,8 @@
+<suite name="Session11Take2" >
+	<test name="ClassesTest" >
+  		<classes> 
+ 			<class name="PracticeExercises.ClassOne"/>
+ 			<class name="PracticeExercises.ClassTwo"/>
+  		</classes>
+  	</test>
+ </suite>

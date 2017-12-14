@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20478" started-at="2017-07-07T15:39:22Z" finished-at="2017-07-07T15:39:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20478" started-at="2017-07-07T15:39:22Z" finished-at="2017-07-07T15:39:42Z">
+      <class name="webElements.TravelocityFlights">
+        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:webElements.TravelocityFlights@23ceabc1]" name="Beforeclass" is-config="true" duration-ms="2684" started-at="2017-07-07T11:39:22Z" finished-at="2017-07-07T11:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:webElements.TravelocityFlights@23ceabc1]" name="test" duration-ms="16690" started-at="2017-07-07T11:39:25Z" finished-at="2017-07-07T11:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:webElements.TravelocityFlights@23ceabc1]" name="Afterclass" is-config="true" duration-ms="1089" started-at="2017-07-07T11:39:41Z" finished-at="2017-07-07T11:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- webElements.TravelocityFlights -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

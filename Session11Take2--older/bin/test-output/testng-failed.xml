@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Session11Take2--older]" parallel="tests">
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="PracticeExercises.multiBrowserTest">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PracticeExercises.multiBrowserTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="PracticeExercises.multiBrowserTest">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PracticeExercises.multiBrowserTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Session11Take2-older] -->

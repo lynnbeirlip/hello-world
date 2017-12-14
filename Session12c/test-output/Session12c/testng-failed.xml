@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Session12c]">
+  <test name="ClassesTest(failed)">
+    <classes>
+      <class name="advancedReportingPractice1.ClassTwo">
+        <methods>
+          <include name="Afterclass"/>
+          <include name="test2_verify_title"/>
+          <include name="Beforeclass"/>
+        </methods>
+      </class> <!-- advancedReportingPractice1.ClassTwo -->
+      <class name="advancedReportingPractice1.ClassOne">
+        <methods>
+          <include name="test1_verify_title"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- advancedReportingPractice1.ClassOne -->
+    </classes>
+  </test> <!-- ClassesTest(failed) -->
+</suite> <!-- Failed suite [Session12c] -->

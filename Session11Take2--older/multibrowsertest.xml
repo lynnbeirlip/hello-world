@@ -1,0 +1,39 @@
+<suite name="Session11Take2--older" parallel="tests">
+ 
+ <test name="FirefoxTest">
+ 
+ <parameter name="browser" value="firefox" />
+ 
+ <classes>
+ 
+ <class name="PracticeExercises.multiBrowserTest" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="ChromeTest">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="PracticeExercises.multiBrowserTest" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="IETest">
+ 
+ <parameter name="browser" value="ie" />
+ 
+ <classes>
+ 
+ <class name="PracticeExercises.multiBrowserTest" />
+ 
+ </classes>
+ 
+ </test>
+ 
+</suite>

@@ -1,0 +1,13 @@
+<suite name="Sess11TestSuite"></suite>;
+ 
+	<test name="Sess11TestCase1"></test>;
+ 
+		<classes>
+			<class name="Session9b.windowHandles.alertBlocers.java" />
+			<class name ="Session9b.windowHandles.switchingiFrames.java" ?>
+	
+		</classes>;
+ 
+	</test>;
+ 
+</suite>;

@@ -1,0 +1,11 @@
+<suite name="Sess11TestSuite"></suite>;
+ 
+<test name="Sess11TestCase1"></test>;
+ 
+<classes&gt; &lt;class name="PackageName.TestCaseName" />;
+ 
+</classes>;
+ 
+</test>;
+ 
+</suite>;

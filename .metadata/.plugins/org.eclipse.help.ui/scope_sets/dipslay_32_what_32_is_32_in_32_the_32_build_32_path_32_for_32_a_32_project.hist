@@ -1,0 +1,6 @@
+#Thu Sep 28 09:59:05 EDT 2017
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=dipslay what is in the build path for a project
